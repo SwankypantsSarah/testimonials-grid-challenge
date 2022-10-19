@@ -154,7 +154,7 @@ body {
 }
 
 .card--violet::after {
-  content: url("/images/bg-pattern-quotation.svg");
+  content: url("./images/bg-pattern-quotation.svg");
   position: absolute;
   width: 104px;
   height: 102px;
