@@ -124,7 +124,7 @@ body {
 /* Cards */
 
 .card__main {
-  margin: 0 auto;
+  margin: -1% auto;
   width: 69.375rem;
   height: 35.75rems;
 }
