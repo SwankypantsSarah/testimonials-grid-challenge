@@ -44,6 +44,7 @@
   font-size: 11px;
   text-align: center;
   padding-top: 2rem;
+  margin: 0 auto;
 }
 
 .attribution a {
@@ -53,7 +54,6 @@
 /* utility */
 
 body {
-  padding: 10.25rem;
   background-color: #ecf2f8;
   font-family: var(--ff-main);
 }
@@ -126,7 +126,7 @@ body {
 .card__main {
   margin: 5% auto;
   width: 69.375rem;
-  height: 35.75rems;
+  height: 35.75rem;
 }
 .card__name {
   display: flex;
@@ -161,4 +161,25 @@ body {
   top: 0;
   right: 10%;
   z-index: -1;
+}
+
+@media screen and (max-width: 35em) {
+  .grid--layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .card__main {
+    margin: 5% auto;
+    width: 20.4375rem;
+    height: 35.75rem;
+  }
+
+  .span-2-cols {
+    grid-column: 1;
+  }
+
+  .span-2-rows {
+    grid-row: 1;
+  }
 }
