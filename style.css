@@ -1,0 +1,32 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* style variables */
+
+  /* base colors */
+
+  --clr-violet: hsl(263, 55%, 52%);
+  --clr-grayish-blue: hsl(217, 19%, 35%);
+  --clr-dark-blue: hsl(219, 29%, 14%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  /* neutral colors */
+  --clr-med-gray: hsl(0, 0%, 81%);
+  --clr-light-gray: hsl(210, 46%, 95%);
+
+  /* font size */
+
+  --fs-main: 0.8125rem; /* 13px */
+  --fs-desc: 1.25rem; /* 20px */
+
+  /* font family */
+  --ff-main: "Barlow Semi Condensed", sans-serif;
+
+  /* img size */
+  --img-width: 28px;
+  --img-height: 28px;
+}
